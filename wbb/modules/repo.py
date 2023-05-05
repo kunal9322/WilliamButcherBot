@@ -43,7 +43,7 @@ async def repo(_, message):
         list_of_users += f"**{count}.** [{user['login']}]({user['html_url']})\n"
         count += 1
 
-    text = f"""[Github](https://github.com/thehamkercat/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
+    text = f"""[Github](https://github.com/PyroUserBot) | [Group](t.me/KakashiSupport)
 ```----------------
 | Contributors |
 ----------------```
