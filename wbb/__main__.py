@@ -112,7 +112,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Commands ❓", callback_data="bot_commands"),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://github.com/PyroUserBot",
             ),
         ],
         [
@@ -120,11 +120,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="System Stats 🖥",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="http://t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="http://t.me/TheKakashiSupport"),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="+ Summon me +",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -146,7 +146,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://github.com/PyroUserBot",
             ),
         ],
         [
@@ -154,7 +154,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/TheKakashiSupport"),
         ],
     ]
 )
